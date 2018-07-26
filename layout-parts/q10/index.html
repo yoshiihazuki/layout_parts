@@ -37,7 +37,57 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <form class="q10_box">
+            <div class="q10_title">
+                <p class="q10_title_text">Form Exercise</p>
+            </div>
+            <div class="clearfix">
+              <div class="main_content_box">
+                <ul class="main_content">
+                  <li class="clearfix">
+                    <p class="main_text">
+                      name
+                    <span class="main_ricemark">*</span>
+                    </p>
+                    <div class="main_content_item">
+                      <input name="main_form_item" class="main_contents_form main_contents_form--init" required="" type="text" />
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <p class="main_text">Sex</p>
+                    <div class="main_content_item">
+                      <label class="q10_radio_btn">
+                        <input name="main_radio" class="main_radio_item" type="radio" value="male" />
+                          <span class="radio_text">male</span>
+                      <label class="q10_radio_btn">
+                        <input name="main_radio" class="main_radio_item" type="radio" value="female" />
+                          <span class="radio_text">female</span>
+                    </label></label>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <p class="main_text">Email
+                      <span class="main_ricemark">*</span>
+                    </p>
+                    <div class="main_content_item">
+                      <input name="email_box" class="main_contents_form main_contents_form--init" required="" type="text" placeholder="ex)hoge@gmail.com" />
+                  </li>
+                  <li class="clearfix">
+                    <p class="main_text">Telephone</p>
+                    <div class="main_content_item">
+                      <input name="email_box" class="main_contents_form main_contents_form--init" type="text" placeholder="ex)12345678" />
+                  </li>
+                </ul>
+                <div class="submit_btn">
+                  <input name="main_form_item" class="main_btn_submit main_contents_form--init" required="" type="submit" value="submit" />
+                </div>
+              </div>
+              <div class="main_side">
+                <textarea name="email_box" class="main_contents_textarea main_contents_form--init" type="textarea" placeholder="Please fill in the message..."></textarea>
+              </div>
+          </div>
+        </form>
+        </div>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

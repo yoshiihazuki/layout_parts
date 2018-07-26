@@ -2,4 +2,163 @@
 
 /* 回答はここに書いてね */
 
+.center {
+    text-align: center;
+}
+
+.box1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.box_in {
+    background: none;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.input {
+    padding: 5px;
+    border:1px solid #00bcd4;
+    border-radius: 5px;
+}
+.input:focus { box-shadow: 0 0 7px #00BCD4; }
+
+.input::-webkit-input-placeholder {
+    color: #00bcd4;
+}
+
+.textfix {
+    resize: none;
+    padding: 5px;
+    height: 40px;
+    border:1px solid #00bcd4;
+    border-radius: 5px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.radio1 {
+    display: none;
+}
+
+.radio_text {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+
+
+.radio_text:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    content: '';
+}
+
+.radio1:checked + .radio_text:after {
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+
+}
+
+.checkbox_label {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: none;
+}
+
+.check_text {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 22px;
+}
+
+.check_text:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.checkbox:checked + .check_text:after {
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 3px;
+    width: 13px;
+    height: 5px;
+    border-bottom: 2px solid #00bcd4;
+    border-left: 2px solid #00bcd4;
+    -webkit-transform: rotate(-45deg);
+    transform:  rotate(-45deg);
+}    
+
+.selectbox {
+    position: relative;
+    background-color: #fff;
+}
+
+.selectbox:before {
+    position: absolute;
+    top: 7px;
+    right: 9px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: "";
+}
+
+.select_list {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 30px 5px 5px;
+    font-size: 14px;
+}
+
+.button {
+    padding: 5px 10px;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    color: #00BCD4;
+    cursor: pointer;
+}
+.button:active {
+    color: #fff;
+    background-color: #00bcd4
+}
+
+
 /* 回答はここに書いてね */

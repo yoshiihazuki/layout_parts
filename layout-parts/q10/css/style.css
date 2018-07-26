@@ -2,4 +2,174 @@
 
 /* 回答はここに書いてね */
 
+.q10_box {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf1f2;
+}
+
+.q10_title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.q10_title:before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q10_title_text {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ecf1f2;
+}
+
+.main_content > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: table !important;
+}
+
+.main_content_box {
+  float: left;
+  width: 300px;
+}
+
+.main_content {
+  margin-bottom: 20px;
+}
+
+.main_content_item {
+  float: right;
+  width: 180px;
+}
+
+
+.main_contents_form--init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -web-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.main_contents_form {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  line-height: 12px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+
+.q10_radio_btn {
+  cursor: pointer;
+}
+
+.main_radio_item {
+  display: none;
+}
+
+:checked.main_radio_item + .radio_text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: "";
+}
+
+.radio_text:before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+
+.radio_text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+
+.submit_btn {
+  text-align: right;
+}
+
+.main_btn_submit {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  line-height: 26px;
+}
+
+
+.main_side {
+  float: right;
+  width: 380px;
+}
+
+.main_contents_textarea {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+
+ol,ul {
+  list-style: none;
+}
+
+.main_text {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.main_ricemark {
+  color: #f00;
+}
+
+
 /* 回答はここに書いてね */

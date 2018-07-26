@@ -7,7 +7,7 @@
     position: relative;
     overflow: hidden;
     width: 500px;
-    height: 333px;
+    height: 340px;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
 
 .pict .mask {
     width: 500px;
-    height: 333px;
+    height: 340px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -42,7 +42,7 @@
 }
 
 .pict-view:hover .mask {
-    opacity: 0.8;
+    opacity: 1;
     left: 0;
     bottom: 0;
 }
