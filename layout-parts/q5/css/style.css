@@ -2,73 +2,68 @@
 
 /* 回答はここに書いてね */
 
-div {
-    margin: 0 auto;
+.first_box {
+  text-align: center;
 }
 
-.box1 {
-    text-align: center;
+.first_text {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 90px;
+  background-color: #e6f2ff;
 }
 
-.text {
-    text-align: center;
-    display:inline-block;
-    width:90px;
-    background-color:#e6f2ff;
-    padding:10px;
+.margin_box {
+  margin: 0 auto;
 }
 
-.box {
-    display: table;
+.margin_text {
+  text-align: center;
+  padding: 10px;
+  background-color: #e6f2ff;
+  width: 90px;
 }
 
-.table_inner {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+.second_position_box {
+  position: relative;
 }
 
-.q5txt {
-    background-color: #fff;
-    padding: 10px;
-    display: inline-block;
+.second_position_text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.box2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.second_box {
+  display: table;
 }
 
-.q5txt2 {
-    background-color: #fff;
-    padding: 10px;
+.second_in_box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.box3 {
-    position: relative;
+.second_text_box {
+  padding: 10px;
+  display: inline-block;
+  background-color: #fff;
 }
 
-.q5txt3 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width: 110px;
-    height: 30px;
+.second_flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.box4 {
-    position:relative;
+.second_trans_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
-.q5txt4 {
-    position: absolute;
-    padding: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 /* 回答はここに書いてね */

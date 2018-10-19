@@ -3,15 +3,15 @@
 /* 回答はここに書いてね */
 
 .q10_box {
-    width: 700px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ecf1f2;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
 }
 
 .q10_title {
-    position: relative;
-    margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .q10_title:before {
@@ -25,13 +25,13 @@
 }
 
 .q10_title_text {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    padding-right: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #ecf1f2;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ecf1f2;
 }
 
 .main_content > li:not(:first-child) {

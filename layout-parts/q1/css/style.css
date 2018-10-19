@@ -3,37 +3,40 @@
 /* 回答はここに書いてね */
 
 .box1 {
-    margin: 0 auto;
-    width: 900px;
-    padding-left: 10px;
-    background-color: #eff3f4;
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+  background-color: #eff3f4;
 }
 
 .box-out {
-    float: left;
-    background-color: #3274ae;
-    padding: 20px;
-    margin: 10px;
+  float: left;
+  background-color: #3274ae;
+  padding: 20px;
+  margin-left: 20px;
+}
 
+.box-out:first-child {
+  margin-left: 0px;
 }
 
 .box-in {
-    margin: 0 auto;
-    width: 230px;
-    background-color: #eaf4ff;
-    padding: 20px;
-    border: 10px solid #022336;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 16px;
+  margin: 0 auto;
+  width: 230px;
+  background-color: #eaf4ff;
+  padding: 20px;
+  border: 10px solid #022336;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .clearfix:after  {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
 }
 
 /* 回答はここに書いてね */

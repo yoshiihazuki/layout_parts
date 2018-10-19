@@ -2,46 +2,46 @@
 
 /* 回答はここに書いてね */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
 }
 
 th {
-    background-color: #2244aa;
-    padding: 10px;
-    font-size:18px;
-    line-height: 26px; 
-    border:solid #dedede 1px;
-    color: white;
+  background-color: #24a;
+  padding: 10px;
+  font-size:18px;
+  line-height: 26px; 
+  border:solid #dedede 1px;
+  color: white;
 }
 
 td:first-child {
-    padding: 10px;
-    font-weight: bold;
-    background-color: #2244aa;
-    border: solid #dedede 1px;
-    color: white;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #24a;
+  border: solid #dedede 1px;
+  color: white;
 }
 
 tr:nth-child(2n+1) {
-    background-color:#ecf1f2;
+  background-color:#ecf1f2;
 }
 
 td {
-    padding: 10px;
-    border:solid #dedede 1px;
+  padding: 10px;
+  border:solid #dedede 1px;
 }
 
 
 .date {
-    font-size:18px;
-    line-height: 26px; 
-    text-align: center;
+  font-size:18px;
+  line-height: 26px; 
+  text-align: center;
 }
 
 tr:last-child {
-    border-top:dashed 2px #000;
+  border-top:dashed 2px #000;
 }
 
 
