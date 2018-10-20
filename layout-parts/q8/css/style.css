@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.bace {
+.base {
   display: table;
   width: 100%;
 }
@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-.bace_var {
+.base_var {
   display: table-cell;
   padding: 20px;
   text-align: center;
